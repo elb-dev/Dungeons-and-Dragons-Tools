@@ -9,4 +9,3 @@ def handler(event, context):
             'body': json.dumps(data),
             'headers': {'Content-Type': 'application/json'}}
 
-print(handler(None, None))
