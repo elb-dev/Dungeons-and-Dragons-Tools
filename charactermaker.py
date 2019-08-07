@@ -115,7 +115,7 @@ def generateCharacter():
     charClassChoice = random.randrange(0,len(charClassList))
 
     #Height
-    charHeightChoice = 56+diceRoll(2,10)
+    charHeightChoice = 50+diceRoll(4,8)
 
     #Build
     charBuildList = ["Fat",
