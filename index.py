@@ -9,3 +9,9 @@ def handler(event, context):
             'body': json.dumps(data),
             'headers': {'Content-Type': 'application/json'}}
 
+def reprint():
+    char = charactermaker.generateCharacter()
+    for item in char:
+        print(item + ": " + str(char[item]))
+
+reprint()

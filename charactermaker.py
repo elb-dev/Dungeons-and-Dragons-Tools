@@ -81,7 +81,7 @@ def generateCharacter():
     charLastAlphChoice = random.randrange(0,len(charAlphList))
 
     #Age
-    charAgeChoice = random.randrange(0,101)
+    charAgeChoice = random.randrange(18,48)
 
     #Sex
     charSexList = ["Male","Female"]
